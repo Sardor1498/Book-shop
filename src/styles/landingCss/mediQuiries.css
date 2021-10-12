@@ -1,0 +1,447 @@
+@media (max-width: 560px) {
+  .appHeaderMenuFlex {
+    border-bottom: none;
+  }
+
+  .appHeaderMenuFlexInfo .showcase_content_one {
+    text-align: center !important;
+  }
+
+  .appHeaderMenuFlexInfo {
+    margin-top: 20px;
+  }
+
+  .appHeaderMenuFlexInfo .showcase_content_two img {
+    width: 50px;
+  }
+
+  .appHeaderMenuFlexInfo .showcase_content_two,
+  .appHeaderMenuFlexInfo .showcase_content_two .wolf_img {
+    width: 300px;
+  }
+
+  #wolf .dollar_sign,
+  #wolf .dollar_sign2 {
+    left: 321px;
+    bottom: 134px;
+    font-size: 12px;
+  }
+
+  #wolf .dollar_sign2 {
+    left: 348px !important;
+  }
+
+  .appHeaderMenuFlexInfo .showcase_content_two .img_stick_bottom {
+    left: 41% !important;
+  }
+
+  .appHeaderMenuFlexInfo .showcase_content_one .borzbtn {
+    font-size: 12px;
+  }
+
+  .individualOffersRow .offer_card {
+    min-width: 48%;
+    padding: 1.5rem;
+    border-radius: 14px;
+  }
+
+  .individualOffersRow .offer_card .offer_num {
+    font-size: 41px;
+  }
+
+  .individualOffers .offer_card .card_uneline {
+    width: 25px;
+  }
+
+  .individualOffersRow .offer_card .title {
+    font-size: 11px;
+  }
+
+  .individualOffersRow .offer_card .offer_desc {
+    font-size: 8px;
+  }
+
+  .section_title {
+    font-size: 18px !important;
+  }
+
+  .borz_bestchoice_section.security .desc {
+    font-size: 8px;
+  }
+
+  .borz_bestchoice_section.security .content img {
+    width: 100%;
+    right: -25%;
+    top: -58%;
+  }
+
+  /* ARBITRATION */
+
+  .arbitrationSection {
+    margin: 3rem 0;
+  }
+
+  .aboutUsNumbersImg {
+    width: 70%;
+  }
+
+  .aboutUsNumbersText {
+    font-size: 7px;
+  }
+
+  .borz_bestchoice_section .content img {
+    width: 150%;
+  }
+
+  .aboutUsNumbersImgInner:last-child {
+    width: 15px;
+  }
+
+  .arbitrationSection .section_title {
+    font-size: 18px !important;
+  }
+
+  .arbitrationSection .arbitrationImg {
+    width: 100px;
+    position: absolute;
+    bottom: -10px;
+  }
+
+  .arbitrationSection .container {
+    position: relative;
+  }
+
+  .arbitrationSection .content_two {
+    width: 60%;
+  }
+
+  .arbitrationSection .desc {
+    min-width: 100%;
+    font-size: 8px;
+  }
+  /* 
+  .we_in_numbers_section .stat_img {
+    margin: 0;
+  } */
+
+  /* EARN MORE */
+  .earn_more_section {
+    margin-bottom: 7rem;
+  }
+
+  .earn_more_section .earn_more_card {
+    min-width: 46%;
+    padding: 1rem;
+    border-radius: 10px;
+    min-height: 100px;
+    margin-bottom: 2rem;
+  }
+
+  .earn_more_section .earn_more_icon {
+    padding: 4px;
+    width: 30px;
+    border-radius: 5px;
+  }
+
+  /* BEST CHOICES */
+  .borz_bestchoice_section .paragraph {
+    width: 100%;
+    font-size: 8px;
+  }
+
+  .earn_more_section .earn_more_card .card_title {
+    font-size: 9px;
+  }
+
+  .earn_more_section .earn_more_card p {
+    font-size: 6px;
+  }
+
+  .borz_bestchoice_section {
+    margin: 5rem 0;
+  }
+
+  /* in numbers */
+
+  .we_in_numbers_section .card .line {
+    width: 32px !important;
+    height: 2px !important;
+    right: 15px !important;
+  }
+
+  .we_in_numbers_section .content_two {
+    min-width: 100%;
+    justify-content: space-between;
+  }
+
+  .we_in_numbers_section .card {
+    min-width: 30%;
+    width: 30%;
+    border-radius: 10px;
+    padding: 0.7rem;
+    min-height: 90px;
+  }
+
+  .we_in_numbers_section .card .number {
+    font-size: 22px;
+  }
+
+  .we_in_numbers_section .card p {
+    font-size: 7px;
+    line-height: 9px;
+  }
+
+  /* TOP OFFERS */
+
+  .topOffersSection {
+    margin: 5rem 0;
+  }
+
+  .topOffersSection .slick-prev::before {
+    content: url("../../assets/landingImages/arrow-right-mobile.svg") !important;
+  }
+
+  .topOffersSection .slick-next::before {
+    content: url("../../assets/landingImages/arrow-left-mobile.svg") !important;
+  }
+
+  .topOffersSection .slick-prev {
+    left: 43%;
+    bottom: -43%;
+  }
+
+  .topOffersSection .slick-next {
+    right: 43%;
+    bottom: -43%;
+  }
+
+  .topOffersSection .top_offers_details .desc {
+    min-width: 100%;
+  }
+
+  .topOffersSection .topOffersSectionSliderCard_img_box img {
+    width: 43px;
+  }
+
+  .topOffersSection .topOffersSectionSliderCard {
+    height: 129px;
+    margin: 0 0.3rem;
+    border-radius: 9px;
+    padding: 0.5rem 0;
+  }
+
+  .topOffersSection .top_offers_details .desc .offer_name {
+    font-size: 16px;
+    border-right: 1px solid #2f3b60;
+  }
+
+  .topOffersSection .top_offers_details .desc .offer_paragraph {
+    font-size: 8px;
+  }
+
+  .topOffersSection .top_offers_details .detail {
+    width: 100%;
+  }
+
+  .topOffersSection .top_offers_details .desc {
+    min-width: 70%;
+  }
+
+  .topOffersSection .top_offers_details .desc .offer_name {
+    width: 200px;
+  }
+
+  .topOffersSection .top_offers_details {
+    margin-top: 8rem;
+  }
+
+  .showSearchCountrySection .ourAdvantagesTitle {
+    font-size: 8px;
+    margin: 2rem;
+  }
+
+  .showSearchCountrySection .ourAdvantagesTitle img {
+    width: 8px;
+  }
+
+  .topOffersSection .top_offers_details .detail .payment p {
+    font-size: 7px;
+  }
+
+  .topOffersSection .top_offers_details .desc .offer_paragraph {
+    width: 130%;
+  }
+
+  .topOffersSection .top_offers_details .detail .section_title {
+    font-size: 18px !important;
+  }
+
+  .topOffersSection .sliderTextTwo {
+    font-size: 10px;
+  }
+
+  .topOffersSection .slick-dots button::before,
+  .slick-dots li {
+    width: 10px !important;
+  }
+
+  .slick-dots li {
+    width: 10px !important;
+  }
+
+  .topOffersSection .sliderTextOne {
+    font-size: 6px;
+    line-height: 110%;
+  }
+
+  .appHeaderMenuFlexInfo .showcasebtn_v1 {
+    display: none;
+  }
+
+  .appHeaderMenuFlexInfo .showcasebtn_v2 {
+    display: block;
+    margin-top: 49px;
+  }
+
+  .showSearchCountrySection .slick-dots li img {
+    width: 36px !important;
+  }
+
+  .showSearchCountrySection .mapSmall span {
+    font-size: 6px;
+  }
+
+  .showSearchCountrySection .slick-dots {
+    bottom: -27px;
+  }
+
+  .showSearchCountrySection .slick-dots li {
+    margin: 1rem !important;
+  }
+
+  /* REGISTER NOW */
+  .borzbtn {
+    font-size: 12px;
+  }
+
+  .borzbtn.rect {
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 0.2rem 1.5rem;
+  }
+
+  .appHeaderMenuFlexInfo .showcase_content_one p.showcase_text.first {
+    font-size: 14px !important;
+    text-align: center;
+  }
+
+  .appHeaderMenuFlexInfo .showcase_content_one p.showcase_text.middle {
+    font-size: 28px !important;
+    text-align: center;
+  }
+
+  .appHeaderMenuFlexInfo .showcase_content_one p.showcase_text.last {
+    font-size: 15px !important;
+    font-family: "Gilroy-ExtraLight";
+    text-align: center;
+  }
+
+  .borz_bestchoice_section.borz_bestchoice_section.security {
+    margin: 5rem 0;
+    margin-top: 7rem;
+  }
+
+  /* FOOTER */
+  .footerSection .footerFlexSubOne .logo {
+    width: 65px;
+    padding-right: 0.5rem;
+  }
+
+  /* REGISTER */
+
+  .registerNowSection {
+    margin: 10rem 0;
+    margin-bottom: 4rem;
+  }
+
+  .registerNowSection .registerNowCard {
+    border-radius: 12px;
+    padding: 4rem 0;
+  }
+
+  .registerNowSection .registerNowCard .section_title {
+    font-size: 13px !important;
+    margin-bottom: 0;
+  }
+
+  .registerNowSection .aboutUsNumbersTitleFlex {
+    margin-bottom: 1rem;
+  }
+
+  .registerSectionFlexSub {
+    min-width: 100% !important;
+    padding: 1.5rem !important;
+  }
+
+  .registerSectionFlexSub form {
+    padding: 1.5rem !important;
+    position: relative;
+  }
+
+  .mapText {
+    font-size: 10px;
+  }
+
+  .welcome_dashboard .welcome_box {
+    width: 100% !important;
+  }
+
+  .welcome_dashboard .welcome_section .question {
+    font-size: 25px !important;
+  }
+
+  .welcome_dashboard .checkboxLabel {
+    font-size: 20px !important;
+  }
+
+  .footerSection .footerFlexSubOne .address {
+    font-size: 4px !important;
+    padding: 0 0.5rem !important;
+  }
+
+  .footerSection .footerFlexSubTwo object {
+    width: 8px;
+  }
+
+  .footerSection .footerFlexSubTwo {
+    min-width: 30%;
+  }
+
+  .footerSection .footerSectionContainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .earn_more_section .section_title {
+    margin-bottom: 2.5rem;
+  }
+
+  .paymentMethods object,
+  .paymentMethods img {
+    width: 10px;
+  }
+
+  .paymentMethods {
+    margin-left: 0.5rem;
+    width: 150px !important;
+  }
+
+  .footerFlexSubTwo {
+    margin: 0;
+  }
+
+  .footerFlexSubTwo svg {
+    width: 10px;
+    height: 10px;
+  }
+}

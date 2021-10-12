@@ -1,0 +1,26 @@
+.mainRed {
+    color: red;
+}
+.myClass {
+    display: none;
+}
+.myClass2:hover .myClass {
+    display: block!important;
+    transition: all .5s ease;
+}
+.myClass2:hover .myClass3 {
+    transform: rotateX(180deg);
+    transition: all .5s ease;
+}
+.myEase:hover .myClass3 {
+    transition: all .5s ease;
+}
+/* .out {
+    position: absolute;
+    top: 80px;
+    left: 240px;
+}
+.sold {
+    position: relative;
+
+} */

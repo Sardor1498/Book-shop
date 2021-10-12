@@ -1,0 +1,32 @@
+.react-tabele-pagination select.pageSize {
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #fff;
+    outline: none;
+    padding: 5.5px;
+}
+
+.react-tabele-pagination select.pageSize option {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.react-tabele-pagination .btn-custom:disabled {
+    border-color: #4E556C;
+    color: #4E556C;
+}
+
+
+.react-tabele-pagination .pageIndex {
+ color: #000000;
+  background: var(--primary-aqua);
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 8px 17px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s transform;
+}

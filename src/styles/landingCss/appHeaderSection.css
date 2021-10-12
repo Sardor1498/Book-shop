@@ -1,0 +1,334 @@
+.appHeaderSection {
+  padding-bottom: 4rem;
+  width: 100%;
+  background-image: url("../../assets/landingImages/planet-earth-space.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.appHeaderSection .appHeaderMenuFlex .borzbtn {
+  width: 200px;
+}
+
+.appHeaderMenuFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3d5093;
+}
+
+.appHeaderMenuSubFlexTwo .borzbtn:first-child {
+  margin-right: 1rem;
+}
+
+.headerLinkMain {
+  border-right: 1px solid #ffffff;
+  display: inline-block;
+}
+
+.headerLinkDropdown img {
+  width: 30px;
+  height: 20px;
+}
+
+/* .dropdown-toggle {
+  background: none !important;
+  border: none !important;
+  font-family: "Roboto-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #ffffff;
+  padding: 0;
+  transform: translate(0px, -5px);
+}
+
+.dropdown-toggle:focus {
+  outline: none;
+}
+
+.dropdown-toggle::after {
+  display: none;
+} */
+
+.dropdown-item {
+  color: #000000;
+}
+
+.dropdown-item:focus {
+  outline: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  color: #000000;
+}
+
+.headerEllipseMain {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.appHeaderMenuContainer {
+  position: relative;
+  z-index: 2;
+}
+
+.appHeaderMenuFlexInfo {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.appHeaderMenuFlexInfo .showcasebtn_v2 {
+  display: none;
+}
+
+.appHeaderMenuFlexInfo .showcase_content_one {
+  width: 40%;
+  min-width: 522px;
+  text-align: start;
+}
+
+.appHeaderMenuFlexInfo .showcase_content_one p.showcase_text {
+  margin-bottom: 2rem;
+  font-family: "Gilroy-Bold";
+}
+
+.appHeaderMenuFlexInfo .showcase_content_one p.showcase_text.first {
+  color: var(--primary-color-landing);
+  font-size: 24px;
+}
+
+.appHeaderMenuFlexInfo .showcase_content_one p.showcase_text.middle {
+  font-size: 64px;
+  line-height: 110%;
+}
+
+.appHeaderMenuFlexInfo .showcase_content_one p.showcase_text.last {
+  font-size: 36px;
+}
+
+.appHeaderMenuFlexInfo .showcase_content_two {
+  position: relative;
+  width: 661px;
+}
+
+.appHeaderMenuFlexInfo .showcase_content_two .img_stick_bottom {
+  height: 12.31px;
+  width: 34vw;
+  position: absolute;
+  background-color: var(--primary-color-landing);
+  bottom: -2%;
+  left: 35%;
+}
+
+.appHeaderMenuFlexInfo .showcase_content_two object {
+  position: relative;
+  z-index: 2;
+}
+
+.appHeaderMenuFlexInfoBtnMain {
+  margin-top: 53px;
+}
+
+.appHeaderMenuFlexInfoBtn {
+  font-family: "Roboto-Bold", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2f7fec;
+  border: 1px solid #2f7fec;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: none;
+  transition: 0.3s;
+  padding: 15px 16px;
+  text-decoration: none !important;
+}
+
+.appHeaderMenuFlexInfoBtn:hover {
+  border: 1px solid #2f7fec;
+  background: #2f7fec;
+  color: #ffffff;
+}
+
+.appHeaderMenuFlexInfoBtn:focus {
+  outline: none;
+  border: 1px solid #2f7fec;
+  background: #2f7fec;
+  color: #ffffff;
+}
+
+.appHeaderMenuFlexInfoBtn:active {
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+
+.appHeaderMenuFlexInfo {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.appHeaderMenuFlexInfoSub {
+  width: 80%;
+}
+
+.appHeaderMenuFlexTitle {
+  font-family: "Roboto-Bold", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.appHeaderMenuFlexTitle span {
+  color: #ffc107;
+}
+
+@media (min-width: 1500px) {
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+  .dropdown-menu {
+    transform: translate3d(-84px, 75px, 0px) !important;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .dropdown-menu {
+    transform: translate3d(-84px, 75px, 0px) !important;
+  }
+
+  .appHeaderMenuFlexTitle {
+    font-size: 55px;
+    line-height: 66px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 765px) {
+  .dropdown-menu {
+    transform: translate3d(-84px, 75px, 0px) !important;
+  }
+
+  .appHeaderMenuFlexTitle {
+    font-size: 35px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 765px) and (min-width: 576px) {
+  .appHeaderMenuImg {
+    width: 200px;
+  }
+
+  .dropdown-toggle {
+    font-size: 18px;
+    transform: translate(0px, -2px);
+  }
+
+  .appHeaderMenuFlexTitle {
+    font-size: 35px;
+    line-height: 46px;
+  }
+
+  .appHeaderMenuFlex {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .dropdown-menu {
+    transform: translate3d(-93px, 49px, 0px) !important;
+  }
+
+  .appHeaderSection {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 700px) {
+  .appHeaderSection .appHeaderMenuFlex .borzbtn {
+    width: 81px;
+    font-size: 8px;
+    padding: 0.1rem 0.3rem;
+  }
+
+  .appHeaderMenuSubFlexTwo {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1200px) {
+  .appHeaderMenuFlexInfo .showcase_content_one {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .appHeaderMenuFlexInfo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .appHeaderMenuFlexInfo .showcase_content_one {
+    min-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+  .appHeaderMenuImg {
+    width: 100px;
+  }
+
+  .dropdown-toggle {
+    font-size: 12px;
+    transform: translate(0px, -2px);
+  }
+
+  .appHeaderMenuFlexTitle {
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  .appHeaderMenuFlex {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .appHeaderSection {
+    min-height: 500px;
+  }
+
+  .headerLink {
+    margin-right: 3px !important;
+  }
+
+  .headerLinkDropdown {
+    margin-left: 3px !important;
+  }
+
+  .headerLinkDropdown img {
+    width: 20px;
+    height: 15px;
+    margin-right: 3px !important;
+  }
+  .dropdown-menu {
+    transform: translate3d(-118px, 38px, 0px) !important;
+  }
+  .appHeaderMenuFlexInfoSub {
+    width: 90%;
+  }
+}

@@ -1,0 +1,43 @@
+.earn_more_section {
+  color: #fff;
+  margin-bottom: 19rem;
+}
+
+.earn_more_section .earn_more_icon {
+  position: absolute;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  top: -20%;
+}
+
+.earn_more_section .section_title {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 8rem;
+}
+
+.earn_more_section .earn_more_card {
+  position: relative;
+  width: 23%;
+  border: 1px solid var(--primary-color-landing);
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  margin-bottom: 5rem;
+  min-width: 290px;
+}
+
+.earn_more_section .earn_more_card .card_title {
+  font-size: 18px;
+  font-family: "Gilroy-Bold";
+}
+
+.earn_more_section .earn_more_card p {
+  font-size: 12px;
+}
+
+.earn_more_section .cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

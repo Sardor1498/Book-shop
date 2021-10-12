@@ -1,0 +1,37 @@
+.registerNowSection {
+  margin: 10rem 0;
+  color: #fff;
+  margin-top: 35rem;
+}
+
+.registerNowSection .borzbtn {
+  font-size: 28px;
+}
+
+.registerNowSection .aboutUsNumbersTitleFlex {
+  margin-bottom: 3rem;
+}
+
+.registerNowSection .registerNowCard {
+  padding: 8rem 0;
+  border-radius: 50px;
+  background-color: #121c39;
+  text-align: center;
+}
+.aboutUsNumbersTitleFlex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.aboutUsNumbersText {
+  font-family: "Roboto-Light", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 120.4%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-top: 30px;
+}

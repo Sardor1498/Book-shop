@@ -1,0 +1,90 @@
+.we_in_numbers_section {
+  background-image: url("../../assets/landingImages/aboutUsbg.png");
+  background-repeat: no-repeat;
+}
+
+.we_in_numbers_section .container {
+  margin: 5rem auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.we_in_numbers_section .card {
+  border-radius: 26.8392px;
+  background-color: #121c39;
+  padding: 2rem;
+  color: #fff;
+  width: 50%;
+  max-width: 260px;
+  min-width: 200px;
+  margin-bottom: 2rem;
+  text-align: end;
+  position: relative;
+}
+
+.we_in_numbers_section .card .line {
+  width: 70px !important;
+  border-radius: 60px !important;
+  height: 3px !important;
+  position: absolute !important;
+  background-color: var(--primary-color-landing) !important;
+  top: 0 !important;
+  right: 50px !important;
+  left: unset;
+  bottom: unset;
+}
+
+.we_in_numbers_section .stat_img {
+  margin-top: -58px;
+  width: 500px;
+  padding: 1rem 0;
+  border-top: 1px solid #302e2e;
+  border-bottom: 1px solid #302e2e;
+}
+
+.we_in_numbers_section .card .number {
+  font-size: 61px;
+  font-family: "Gilroy-Bold";
+}
+
+.we_in_numbers_section .card p {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Gilroy-Bold";
+}
+
+.we_in_numbers_section .content_one {
+  margin-bottom: 2rem;
+}
+
+.we_in_numbers_section .content_two {
+  min-width: 540px;
+  width: 39%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1100px) {
+  .we_in_numbers_section .content_one {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+
+  .we_in_numbers_section .stat_img {
+    width: 50%;
+  }
+
+  .we_in_numbers_section .container {
+    flex-direction: column;
+  }
+
+  .we_in_numbers_section .content_two {
+    min-width: 100%;
+  }
+}

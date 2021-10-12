@@ -1,0 +1,194 @@
+/* SELECT PRIMARY */
+.css-yk16xz-control {
+  border: 0.6px solid #414c70 !important;
+  background-color: #1f2947 !important;
+}
+
+.custom-select .css-2b097c-container .css-yk16xz-control {
+  height: 48px !important;
+  width: 240px;
+}
+
+.css-tlfecz-indicatorContainer svg {
+  fill: #fff;
+}
+
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+.css-1pahdxg-control {
+  margin: 0;
+  background-color: #1f2947 !important;
+  border-color: var(--primary-aqua) !important;
+  box-shadow: 0 0 0 1px var(--primary-aqua) !important;
+  color: #fff !important;
+}
+
+.css-yk16xz-control:focus {
+  background-color: #1f2947 !important;
+}
+
+.css-26l3qy-menu {
+  background-color: #1f2947 !important;
+  display: block !important;
+}
+
+.css-1uccc91-singleValue {
+  color: #fff !important;
+}
+
+
+.input-error {
+  border: 1px solid #FF4C4C;
+}
+
+
+/* SELECT SECONDARY */
+
+.secondary-select .css-yk16xz-control {
+  border-color: #fff !important;
+  background-color: transparent !important;
+}
+
+.secondary-select .css-yk16xz-control {
+  border-radius: 8px;
+}
+
+.secondary-select .css-1pahdxg-control {
+  margin: 0;
+  border-radius: 8px;
+  border-color: var(--primary-aqua) !important;
+  box-shadow: 0 0 0 1px var(--primary-aqua) !important;
+  color: #fff !important;
+  background-color: transparent;
+}
+
+/* finance custom select */
+.finance .finance-table .css-yk16xz-control,
+.finance .finance-table .css-1pahdxg-control {
+  min-height: 47px;
+  border-radius: 8px;
+}
+
+.finance .finance-table .css-yk16xz-control {
+  border: 0.6px solid #fff !important;
+  border-radius: 8px;
+}
+
+/* INPUT */
+
+input {
+  width: 100%;
+  border-radius: 4px;
+  color: #fff;
+  outline: none;
+  transition: all 0.2s;
+  font-size: 1.1rem;
+  padding: 0 1rem;
+}
+
+input.primary {
+  background-color: #1f2947;
+  border: 0.6px solid #414c70;
+  padding: 0.5rem 1rem;
+}
+
+.input_primary_wrapper {
+  position: relative;
+}
+
+.input_icon_wrap {
+  position: absolute;
+  background-color: var(--primary-aqua);
+  width: 46px;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.input_error {
+  font-size: 12px;
+  color: rgb(236, 87, 87);
+}
+
+input.secondary {
+  background-color: transparent;
+  border: 0.6px solid #fff;
+  padding: .5rem;
+}
+
+input.primary:focus {
+  color: #fff !important;
+  /* border-color: var(--primary-aqua);
+  box-shadow: 0 0 0 1px var(--primary-aqua); */
+}
+
+/* RADIO */
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:not(:disabled)~label {
+  cursor: pointer;
+}
+
+input[type="radio"]:disabled~label {
+  color: hsla(150, 5%, 75%, 1);
+  border-color: hsla(150, 5%, 75%, 1);
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+label.radio_label {
+  padding: 0.7rem 0;
+  width: 100%;
+  background: #1f2947;
+  border: 0.6px solid #414c70;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+input[type="radio"]:checked+label {
+  background: var(--primary-aqua);
+  border-color: var(--primary-aqua);
+  color: hsla(215, 0%, 100%, 1);
+}
+
+input[type="radio"]::after {
+  color: hsla(215, 5%, 25%, 1);
+  font-family: FontAwesome;
+  border: 2px solid hsla(150, 75%, 45%, 1);
+  content: "\f00c";
+  font-size: 24px;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0px 2px 5px -2px hsla(0, 0%, 0%, 0.25);
+}
+
+input[type="radio"]#control_05:checked+label {
+  background: red;
+  border-color: red;
+}
+
+.radio_wrapper {
+  display: inline-block;
+  min-width: 130px;
+}
+
+@media only screen and (max-width: 700px) {
+  section {
+    flex-direction: column;
+  }
+}

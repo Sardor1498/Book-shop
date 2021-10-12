@@ -1,0 +1,149 @@
+:root {
+  --primary-color: #162248;
+  --primary-color-light: #23315e;
+  --secondary-color: #030b24;
+  --secondary-color-light: #0e193c;
+  --primary-aqua: #20caeb;
+  --gray-color: #6b7080;
+  --border-radius: 15px;
+  --bg-color: #0e193c;
+}
+
+@import url("./utilities/buttons.css");
+@import url("./utilities/flexbox.css");
+@import url("./utilities/sizes.css");
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+svg {
+  fill: #fff;
+}
+
+/* ICONS */
+.icon_primary svg {
+  fill: var(--primary-color-light);
+  cursor: pointer;
+}
+
+.icon_aqua svg {
+  fill: var(--primary-aqua);
+  cursor: pointer;
+}
+
+.icon_primary:hover svg {
+  fill: var(--primary-aqua);
+}
+
+.icon_primary.medium svg {
+  width: 30px;
+  height: 30px;
+}
+
+.link_with_nostyle {
+  color: unset;
+  text-decoration: none;
+}
+
+.aquaOnHover svg {
+  fill: #fff;
+  cursor: pointer;
+}
+
+.aquaOnHover:hover svg {
+  fill: var(--primary-aqua);
+  cursor: pointer;
+}
+
+/* ICONS END */
+
+::placeholder,
+.css-1wa3eu0-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6a728a !important;
+  opacity: 1 !important;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #6a728a;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #6a728a;
+}
+
+.dashboard_card {
+  background-color: var(--primary-color);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* btn */
+
+.page_section_title {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard_card_title {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.radius-8 {
+  border-radius: 8px;
+}
+
+/* input & select */
+
+.border {
+  border: 1px solid #fff;
+}
+
+/* transparency */
+
+.bg-transparent {
+  background: transparent;
+}
+
+.disabled {
+  color: var(--gray-color) !important;
+}
+
+.custom_dropdown {
+  width: 200px !important;
+  background-color: var(--primary-color-light) !important;
+  opacity: 1 !important;
+}
+
+.custom_dropdown::after {
+  content: none !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+.my_domains_table .aquaOnHover svg {
+  height: 16px;
+}
+.mt-3 {
+  margin-top: 3rem;
+}

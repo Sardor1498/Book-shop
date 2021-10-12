@@ -1,0 +1,35 @@
+.borz_bestchoice_section {
+  margin: 15rem 0;
+  color: #fff;
+  position: relative;
+  margin-top: 172px;
+}
+
+.borz_bestchoice_section.borz_bestchoice_section.security {
+  margin-top: 35rem;
+}
+
+.borz_bestchoice_section .content img {
+  position: absolute;
+  right: -3%;
+  top: -6%;
+}
+
+.borz_bestchoice_section .paragraph {
+  width: 70%;
+  font-size: 22px;
+}
+
+.borz_bestchoice_section.security .content img {
+  right: -8%;
+  top: -72%;
+}
+
+/* .borz_bestchoice_section.security .content {
+  width: 30%;
+} */
+
+.borz_bestchoice_section .cards {
+  display: flex;
+  justify-content: space-between;
+}

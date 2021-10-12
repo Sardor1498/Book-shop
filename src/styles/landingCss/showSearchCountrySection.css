@@ -1,0 +1,173 @@
+.showSearchCountrySection #sync1 .item {
+}
+
+.showSearchCountrySection .slick-dots {
+  bottom: -200px;
+}
+
+.showSearchCountrySection .mapSmall {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.showSearchCountrySection .ourAdvantagesTitle {
+  margin-bottom: 6rem;
+}
+
+.showSearchCountrySection .slick-dots li.slick-active .mapSmall {
+  color: #40507f !important;
+}
+
+.showSearchCountrySection .slick-dots li {
+  margin: 76px !important;
+}
+
+.showSearchCountrySection .slick-dots li img {
+  width: 125px !important;
+}
+
+.showSearchCountrySection .map_circle {
+  animation: glowMap 1s ease-in-out infinite alternate;
+  fill: #40507f;
+}
+
+.showSearchCountrySection .mapBig {
+  text-align: center;
+  width: 100%;
+}
+
+.showSearchCountrySection .ourAdvantagesTitle {
+  text-align: center;
+  color: #40507f;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.showSearchCountrySection #sync2 .item {
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+}
+.mapDiv {
+  height: 120px;
+}
+
+.showSearchCountrySection #sync2 .current .item p {
+  color: #2f7fec;
+}
+
+.showSearchCountrySection #sync1.owl-theme {
+  position: relative;
+}
+
+.showSearchCountrySection #sync1.owl-theme .owl-next,
+.owl-prev {
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 9;
+}
+
+.showSearchCountrySection #sync1.owl-theme .owl-prev {
+  left: 25px;
+  color: transparent;
+  font-size: 1px;
+}
+.showSearchCountrySection #sync1.owl-theme .owl-prev:after {
+  content: url("../../assets/landingImages/svg/arrow-left-line.svg");
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  bottom: 0;
+}
+
+.showSearchCountrySection #sync1.owl-theme .owl-next {
+  right: 25px;
+  color: transparent;
+  font-size: 1px;
+}
+.showSearchCountrySection #sync1.owl-theme .owl-next:after {
+  content: url("../../assets/landingImages/svg/arrow-right-line.svg");
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  bottom: 0;
+}
+
+.showSearchCountrySection #sync1.owl-theme .owl-prev:focus {
+  outline: none !important;
+}
+
+.showSearchCountrySection #sync1.owl-theme .owl-next:focus {
+  outline: none !important;
+}
+
+.mapImgFlex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#sync1 .mapImgFlex div {
+  width: 100%;
+}
+.mapImgFlex img {
+  width: 100%;
+  height: 480px;
+}
+.mapBackImgMain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.showSearchCountryContainer {
+  position: relative;
+  z-index: 3;
+}
+
+@media (max-width: 1100px) {
+  .showSearchCountrySection .mapBig,
+  .showSearchCountrySection .mapBig svg {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+@media (max-width: 1500px) and (min-width: 1200px) {
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+}
+@media (max-width: 992px) and (min-width: 765px) {
+}
+@media (max-width: 765px) and (min-width: 576px) {
+}
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+  .mapImgFlex img {
+    width: 100%;
+    height: 300px;
+  }
+  .mapDiv {
+    height: 130px;
+  }
+  .mapDiv img {
+    height: 130px;
+  }
+}
+
+@keyframes glowMap {
+  from {
+    fill: #40507f;
+  }
+
+  to {
+    fill: #00d5ff;
+  }
+}
